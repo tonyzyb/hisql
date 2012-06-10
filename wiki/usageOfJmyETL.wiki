@@ -1,0 +1,15 @@
+#labels jmyetl-1.0.2
+= Introduction =
+
+Here is the main usage of jmyetl-1.0.2.  It mainly focus on the data import/export from one DBMS to other DBMS. Such as Sybase ASE/ASA, Oracle, MySQL, PostgreSQL, DB2, SQLServer, Access and even SQLite.
+
+It's very useful for the multiple datasource support sometimes.
+
+
+= Details =
+    #From the download location, decompress the zip file of jmyetl-1.0.2.
+    #Open JmyETL.exe, fill in the {host}, {database}, {port} information for the 
+     source db and target db. Click the test connect to ensure they are connected.
+    # click start import.
+
+
