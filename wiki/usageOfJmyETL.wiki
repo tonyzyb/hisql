@@ -7,9 +7,7 @@ It's very useful for the multiple datasource support sometimes.
 
 
 = Details =
-    #From the download location, decompress the zip file of jmyetl-1.0.2.
-    #Open JmyETL.exe, fill in the {host}, {database}, {port} information for the 
+    # From the download location, decompress the zip file of jmyetl-1.0.2.
+    # Open JmyETL.exe, fill in the {host}, {database}, {port} information for the 
      source db and target db. Click the test connect to ensure they are connected.
     # click start import.
-
-
