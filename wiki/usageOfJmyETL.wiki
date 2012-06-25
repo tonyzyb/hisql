@@ -14,6 +14,7 @@ It's very useful for the multiple datasource support sometimes.
     # Open JmyETL.exe, fill in the {host}, {database}, {port} information for the 
      source db and target db. Click the test connect to ensure they are connected.
     # click start import.
+    # For Access Database, you need not create the mdb file in advance. If it doesn't exist, the tool will create it for you. 如果Access数据库文件不存在，工具会为你自动创建一个mdb数据库文件。
 
 See the sample picture:
 
