@@ -1,7 +1,7 @@
 #labels jmyetl,FrontDB,Cubrid,hisql,PostgreSQL,Dataware
 = Introduction =
 
-Here is the main usage of jmyetl-1.0.2.  It mainly focus on the data import/export from one DBMS to other DBMS. Such as FrontDB/PostgreSQL, Cubrid, Sybase ASE/ASA, Oracle, MySQL, DB2, SQLServer, Access and even SQLite.
+Here is the main usage of jmyetl-1.0.2.  It mainly focus on the data import/export from one DBMS to other DBMS. Such as FrontDB/PostgreSQL, CUBRID, Sybase ASE/ASA, Oracle, MySQL, DB2, SQLServer, Access and even SQLite.
 
 It's very useful for the multiple datasource support sometimes.
 
