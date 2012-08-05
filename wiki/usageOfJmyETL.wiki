@@ -7,12 +7,13 @@ It's very useful for the multiple datasource support sometimes.
 
 = Details =
     # From the download location, decompress the zip file of jmyetl-1.0.2.
-    # *Edit the ini file:  jmyetl.ini,  adjust the value of vm.location to your {JAVA_HOME}\jre\bin\server\jvm.dll*. 
+    # *Edit the ini file:  jmyetl.ini,  adjust the value of vm.location to your {JAVA_HOME}\jre\bin\server\jvm.dll*.   [please note:] for now, it only supports 32-bit jdk. Even you are in 64-bit OS, please also use 32-bit jdk1.6 and above. The jdk can be any unzipped version.
+
     # *For the jmyetl.ini, you can also add the following value in new lines*.
       * vmarg.1=-Xms64M
       * vmarg.2=-Xmx512M
     # Open JmyETL.exe, fill in the {host}, {database}, {port} information for the 
-     source db and target db. Click the test connect to ensure they are connected.
+     source db and target db. Click the test connect to ensure they are both connected.
     # click start import.
     # For Access Database, you need not create the mdb file in advance. If it doesn't exist, the tool will create it for you. 如果Access数据库文件不存在，工具会为你自动创建一个mdb数据库文件。
 
