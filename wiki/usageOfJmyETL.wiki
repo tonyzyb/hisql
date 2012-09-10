@@ -1,4 +1,4 @@
-#labels jmyetl,FrontDB,Cubrid,hisql,PostgreSQL,Dataware
+#labels jmyetl,Cubrid,hisql,PostgreSQL
 = Introduction =
 
 Here is the main usage of jmyetl-1.0.2.  It mainly focus on the data import/export from one DBMS to other DBMS. Such as FrontDB/PostgreSQL, CUBRID, Sybase ASE/ASA, Oracle, MySQL, DB2, SQLServer, Access and even SQLite.
@@ -7,7 +7,7 @@ It's very useful for the multiple datasource support sometimes.
 
 = Details =
     # From the download location, decompress the zip file of jmyetl-1.0.2.
-    # *Edit the ini file:  jmyetl.ini,  adjust the value of vm.location to your {JAVA_HOME}\jre\bin\server\jvm.dll*.   [please note:] for now, it only supports 32-bit jdk. Even you are in 64-bit OS, please also use 32-bit jdk1.6 and above. The jdk can be any unzipped version.
+    # *Edit the ini file:  jmyetl.ini,  adjust the value of vm.location to your {JAVA_HOME}\jre\bin\server\jvm.dll*.   [please note:] for now, it only supports 32-bit jdk. Even you are in 64-bit OS, please also use 32-bit jdk1.6 and above. We recommend use jdk1.6. The jdk can be any unzipped version. Because I implement it and test it in jdk1.6 by default.
 
     # *For the jmyetl.ini, you can also add the following value in new lines*.
       * vmarg.1=-Xms64M
